@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gergely Patrícia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Mikulás házhoz megy!</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>A Mikulásról</li>
+                <li>Megrendelő</li>
+                <li>
+                    <a href="kulso.html">Külső link</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <p>Válaszd ki, melyik szolgálatatást kéred!</p>
+
+            <form action="/action_page.php" method="post">
+                <label for="Adatok">Amit a Mikulásnak tudnia kell</label>
+                    <fieldset id="Adatok">
+                    <label for="megren">Megrendelő neve:</label>
+                <input type="text" id="megren" name="megren">
+
+                    <label for="cegnev">Cég neve</label>
+                <input type="text" id="cegnev" name="cegnev">
+
+                    <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                    
+                    <label for="szamla">Számlázási név, cím</label>
+                <input type="text" id="szamla" name="szamla">
+            
+                    <label for="cim">Látogatási cím</label>
+                <input type="text" id="cim" name="cim">
+
+                    <label for="lszam">Létszám</label>
+                <input type="text" id="lszam" name="lszam">
+
+                    <label for="fontos">Fontosabb tudnivalók</label>
+                <input type="text" id="fontos" name="fontos">
+
+                    <label for="keres">Kérés, bármilyen megjegyzés</label>
+                <input type="text" id="cim" name="cim">
+
+                    <label for="ido">Időpont</label>
+                <input type="text" id="ido" name="ido">
+                        
+                <label id="elf" for="elf">Elfogadás</label>
+                <div>
+                    <input type="checkbox" name="elf" value="elf">
+                    <label for="elf">Elfogadom</label> 
+                </div>
+                <label id="elf" for="elf">Melyik szolgáltatást választod</label>
+                <div>
+                <input type="checkbox" name="vehicle1" value="Bike">
+                <label for="vehicle1">Céges Mikulás</label><br>
+                <input type="checkbox" name="vehicle2" value="Car">
+                <label for="vehicle2">Dolgozó Mikulás</label><br>
+                <input type="checkbox" name="vehicle3" value="Boat">
+                <label for="vehicle3">Futár Mikulás</label><br>
+                <input type="checkbox" name="vehicle4" value="Bike">
+                <label for="vehicle4">Reklám Mikulás</label><br>
+                <input type="checkbox" name="vehicle5" value="Car">
+                <label for="vehicle5">Kérem a kézműves foglalkozást is</label><br>
+                <input type="checkbox" name="vehicle6" value="Boat">
+                <label for="vehicle6">Csomagolást is kérünk</label><br>
+                </div>
+                
+
+
+            </fieldset>
+
+
+                
+        </article>
+        <footer>
+            Ⓒ Minden jog fenntartva!
+
+             
+        </footer>
+    </main>
+    
+</body>
+</html>
